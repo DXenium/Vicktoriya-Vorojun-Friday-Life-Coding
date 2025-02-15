@@ -1,0 +1,81 @@
+.ico {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.icon-square {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    align-items: center;
+    justify-content: center;
+
+    &_orange {
+        background-color: $color-yellow;
+    }
+
+    &_lilium {
+        background-color: $color-violet;
+    }
+
+    &_red {
+        background-color: $color-red;
+    }
+
+    &_blue {
+        background-color: $color-blue;
+    }
+}
+
+.ico_play {
+    background-image: url("../../img/icons/ico-play.svg");
+    width: 18px;
+    height: 19px;
+}
+
+.ico_arrow {
+    background-image: url("../../img/icons/ico-arrow.svg");
+    width: 12px;
+    height: 17px;
+}
+
+.ico_snake {
+    background-image: url("../../img/icons/ico-snake.svg");
+    width: 18px;
+    height: 14px;
+}
+
+.ico_heart {
+    background-image: url("../../img/icons/ico-heart.svg");
+    width: 17px;
+    height: 15px;
+}
+
+.ico_watch {
+    background-image: url("../../img/icons/ico-watch.svg");
+    width: 15px;
+    height: 17px;
+}
+
+.ico-contact {
+    display: inline-flex;
+    background-color: $color-light;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ico_phone {
+    background-image: url("../../img/icons/ico-phone.svg");
+    width: 13px;
+    height: 13px;
+}
+
+.ico_mail {
+    background-image: url("../../img/icons/ico-mail.svg");
+    width: 11px;
+    height: 8px;
+}
