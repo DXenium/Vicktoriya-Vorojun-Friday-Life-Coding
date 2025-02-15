@@ -1,0 +1,29 @@
+.header {
+    background: $color-light;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+    padding: 15px 0 17px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include media-tablet {
+        padding-left: 24px;
+    }
+}
+
+.header__logo-line {
+    display: flex;
+}
+
+.header__buttons {
+    >.button:first-child {
+        margin-right: 14px;
+    }
+
+    @include media-mobile {
+        display: none;
+    }
+}
